@@ -13,7 +13,7 @@ p{
     padding-bottom: 10px;
 }
 
-.contacto h2{
+.contacto h2 {
     font-family: "Inconsolata", monospace;
     color: rgb(91, 91, 91);
 }
@@ -30,9 +30,8 @@ p{
     font-size: 20px;
 }
 
-.formulario p{
-    display: flex;
-}
+/* .formulario p{
+} */
 
 .formulario p label{
     min-width: 80px;
@@ -76,4 +75,21 @@ p{
 .formulario input[type= "reset"]:hover,
 .formulario input[type= "submit"]:hover {
     background-color: #4b98ef;
+}
+
+.lista-de-medios {
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-de-medios li {
+    padding-bottom: 13px;
+}
+
+.otrasviasdecomunicacion {
+    padding-left: 20px;
+}
+
+.contactorapido {
+    padding-left: 10px;
 }

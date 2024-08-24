@@ -40,23 +40,23 @@ const ContactoPage = (promps) => {
         <body>
             <main className="holder contacto">
                 <div>
-                    <h2>Contacto Rápido</h2>
+                    <h2 className="contactorapido">Contacto Rápido</h2>
                     <form className="formulario" action="/contacto" method="post" onSubmit={handleSubmit}>
                         <p>
                             <label for="nom">Nombre</label>
-                            <input type="text" name="nombre" value={formData.nombre} onChange={handleChange}/>
+                            <input type="text" name="nombre" value={formData.nombre} onChange={handleChange} />
                         </p>
                         <p>
                             <label for="nom">Apellido</label>
-                            <input type="text" name="apellido" value={formData.apellido} onChange={handleChange}/>
+                            <input type="text" name="apellido" value={formData.apellido} onChange={handleChange} />
                         </p>
                         <p>
                             <label for="pass">Email</label>
-                            <input type="text" name="email" value={formData.email} onChange={handleChange}/>
+                            <input type="text" name="email" value={formData.email} onChange={handleChange} />
                         </p>
                         <p>
                             <label for="pass">Telefono</label>
-                            <input type="text" name="telefono" value={formData.telefono} onChange={handleChange}/>
+                            <input type="text" name="telefono" value={formData.telefono} onChange={handleChange} />
                         </p>
                         <p>
                             <label for="comentario">Comentario</label>
@@ -73,9 +73,9 @@ const ContactoPage = (promps) => {
 
                 </div>
                 <div className="holder contactos">
-                    <h2>Otras vías de comunicación</h2>
-                    <p>Puede comunicarse con nosotros a través de estos medios:</p>
-                    <ul /*</div>className="lista-de-medios"*/>
+                    <h2 className="otrasviasdecomunicacion">Otras vías de comunicación</h2>
+                    <p className="">Puede comunicarse con nosotros a través de estos medios:</p>
+                    <ul className="lista-de-medios">
                         <li>Facebook:</li>
                         <li>Instagram:</li>
                         <li>Twitter:</li>

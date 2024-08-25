@@ -10,6 +10,7 @@ import NosotrosPage from './pages/NosotrosPage';
 import IndexPage from './pages/IndexPage';
 import DiseñosPage from './pages/DiseñosPage';
 import ContactoPage from './pages/ContactoPage';
+import NovedadesPage from './pages/NovedadesPage';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/NosotrosPage" element={<NosotrosPage />} />
           <Route path="/DiseñosPage" element={<DiseñosPage />} />
           <Route path="/ContactoPage" element={<ContactoPage />} />
+          <Route path="/NovedadesPage" element={<NovedadesPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />

@@ -6,9 +6,10 @@ const ContactoPage = (promps) => {
 
     const initialForm = {
         nombre: '',
+        apellido: '',
         email: '',
         telefono: '',
-        mensaje: ''
+        comentario: ''
     }
 
     const [sending, setSending] = useState(false);

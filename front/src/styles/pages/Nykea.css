@@ -1,35 +1,90 @@
 .productosmuebles {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(192, 191, 192);
+    background-color: rgb(255, 255, 255);
     width: 75%;
     padding-right: 10px;
 }
 
 .productosmuebles img {
-    width: 210px;
-    height: 210px;
+    width: 180px;
+    height: 180px;
     margin: 10px;
     padding-left: 15px;
     padding-top: 10px;
     box-sizing: border-box;
 }
 
-aside {
-    width: 25%;
-    background-color: rgba(191, 194, 193, 0.875);
-    box-sizing: border-box;
-    border-left: solid 5px gray;
+.contenedor-img {
+    transition: transform 0.4s ease-in-out;
+    display: inline-block; /* Para que el div se ajuste al contenido */
 }
 
-aside p {
-    padding-left: 12px;
+.contenedor-img:hover,
+.img:hover {
+    transform: scale(1.06);
+}
+
+.Precio {
+    font-weight: bold;
+    transition: color 0.4s ease-in-out;
+}
+
+.contenedor-img:hover .Precio,
+.img:hover + .Precio {
+    color: #006ae3;
+}
+
+.productosmuebles .Precio {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-top: -9px;
+}
+
+.productosmuebles p {
+    font-size: 12px;
+    width: 140px;
+    padding-left: 55px;
+    color: rgb(91, 91, 91);
+}
+
+aside {
+    width: 30%;
+    background-color: rgba(244, 252, 255, 0.875);
+    border-left: solid 2px rgb(195, 195, 195);
+    border-bottom: solid 2px rgb(113, 113, 113);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+ 
+aside img {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 5px 5px; 
+} 
+
+aside a {
+    margin-left: 20px;
+    margin-top: 37px;
+    padding-right: 20px;
     font-family: "Inconsolata", monospace;
-    font-size: 20px;
+    font-size: 16px;
+}
+
+aside h3 {
+    margin-left: 30px;
+}
+
+.noticia {
+    display: flex;
 }
 
 .contenedor1 {
     color: rgb(1, 1, 1);
     font-size: 20px;
     display: flex;
+    background-color: white;
 }

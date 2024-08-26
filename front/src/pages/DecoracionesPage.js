@@ -11,9 +11,9 @@ const DecoracionesPage = (promps) => {
                             height="200px" /></div>
                         <div className="decoraciones"><img src="/img/decoraciones/planta2.png" alt="planta2" width="200px"
                             height="200px" /></div>
-                        <div className="decoraciones"><img src="/img/decoraciones/planta3.png" alt="planta3" width="200px"
+                        <div className="decoraciones"><img src="/img/decoraciones/planta33.png" alt="planta3" width="200px"
                             height="200px" /></div>
-                        <div className="decoraciones"><img src="/img/decoraciones/planta4.png" alt="planta4" width="200px"
+                        <div className="decoraciones"><img src="/img/decoraciones/planta3.png" alt="planta4" width="200px"
                             height="200px" /></div>
                         <div className="decoraciones"><img src="/img/decoraciones/cuadro1.png" alt="cuadro1" width="200px"
                             height="200px" /></div>

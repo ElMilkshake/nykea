@@ -59,10 +59,10 @@ const ContactoPage = (promps) => {
                             <label for="pass">Telefono</label>
                             <input type="text" name="telefono" value={formData.telefono} onChange={handleChange} />
                         </p>
-                        <p>
+                        {<p>
                             <label for="comentario">Comentario</label>
                             <textarea name="comentario" value={formData.comentario} onChange={handleChange}></textarea>
-                        </p>
+                        </p>}
                         <p>
                             <input type="submit" value="Enviar" />
                             <input type="reset" value="Borrar" />

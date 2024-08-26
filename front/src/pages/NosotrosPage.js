@@ -26,7 +26,7 @@ const NosotrosPage = (promps) => {
                         colchones,
                         electrodomésticos y objetos para el hogar. Fue fundada en la provincia de Småland el 28 de julio de 1943
                         por Ingvar Kamprad.</p>
-                    <p>A partir de éxito y la fama de esta empresa, Müller decidió hacer algo similar en cuanto al nombre del
+                    <p>A partir del éxito y la fama de esta empresa, Müller decidió hacer algo similar en cuanto al nombre del
                         negocio. De esta forma es
                         como surge "Nykea", lo cual suena muy similar a "IKEA", pero escrito de una forma notoriamente
                         diferente.</p>

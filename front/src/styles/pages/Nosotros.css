@@ -1,34 +1,51 @@
-.linkfacebook{
+.linkfacebook {
     color: rgb(8, 58, 222);
     font-size: 25px;
     text-decoration: none;
 }
 
-.linkyoutube{
+.linkyoutube {
     color: rgb(222, 8, 26);
     font-size: 25px;
     text-decoration: none;
     padding-right: 20px;
 }
 
-.linkinstagram{
+.linkinstagram {
     color: rgb(197, 7, 226);
     font-size: 25px;
     text-decoration: none;
     padding-right: 20px;
 }
 
-main p{
+.nosotros p {
     font-size: 20px;
 }
 
-.RedesSociales{
+.redes-h3 {
     font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
 }
 
-main{
-    background-color: rgb(255, 255, 255);
-    padding-left: 15px;
+main {
     padding-top: 1px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
+}
+
+.redes-sociales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -30px;
+    padding-bottom: 15px;
+}
+
+.redes-link {
+    display: flex;
+    margin-top: -22px;
+}
+
+main {
+    background-color: rgb(241, 241, 241);
 }

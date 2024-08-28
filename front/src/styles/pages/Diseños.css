@@ -1,40 +1,63 @@
-    .diseñosliving{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        /* justify-content: center; */
-        background-color: rgb(228, 234, 255);
-        border-top: solid rgb(128, 128, 128);
-        border-bottom: solid rgb(128, 128, 128);
-    }
+.diseñosliving {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: solid 3px rgb(128, 128, 128);
+    border-bottom: solid 3px rgb(128, 128, 128);
+}
 
-    .diseñoscomedor{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        background-color: rgb(254, 228, 228);
-        border-top: solid rgb(128, 128, 128);
-        border-bottom: solid rgb(128, 128, 128);
-    }
+.diseñoscomedor {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid 3px rgb(128, 128, 128);
+    border-bottom: solid 3px rgb(128, 128, 128);
+}
 
-    .diseñospatio{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        background-color: rgb(236, 255, 231);
-        border-top: solid rgb(128, 128, 128);
-        border-bottom: solid rgb(128, 128, 128);
-    }
+.diseñospatio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: solid rgb(128, 128, 128);
+    border-bottom: solid rgb(128, 128, 128);
+}
 
-    .diseños{
-        margin: 10px;
-    }
+.diseños {
+    margin: 10px;
+}
 
-    main h3{
-        font-size: 25px;
-        font-family: "Inconsolata", monospace;
-    }
-    
-    .h3zonas{
-        text-align: center;
-    }
+.h3zonas {
+    text-align: center;
+    font-family: "SUSE", sans-serif;
+    background-color: rgb(189, 229, 255);
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.diseñosliving,
+.diseñoscomedor,
+.diseñospatio {
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+
+.diseñosliving img,
+.diseñoscomedor img,
+.diseñospatio img {
+    width: 100px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .6;
+    transition: .5s ease;
+}
+
+.diseñosliving img:hover,
+.diseñoscomedor img:hover,
+.diseñospatio img:hover {
+    cursor: crosshair;
+    width: 300px;
+    height: 200px;
+    opacity: 1;
+    filter: contrast(120%);
+}

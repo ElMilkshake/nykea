@@ -5,17 +5,18 @@ p{
 }
 
 .contacto{
-/*     background-color: rgb(203, 203, 203);
-    border-left: solid 5px rgb(166, 166, 166);
-    border-right: solid 5px rgb(166, 166, 166); */
     display: flex;
     gap: 24px;
     padding-bottom: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .contacto h2 {
     font-family: "Inconsolata", monospace;
     color: rgb(91, 91, 91);
+    text-decoration: underline;
+    margin-left: 10px;
 }
 
 .contacto div{
@@ -24,14 +25,16 @@ p{
 
 .contactos p{
     font-size: 22px;
+    margin-left: 29px;
 }
 
 .contactos ul li{
     font-size: 20px;
 }
 
-/* .formulario p{
-} */
+ .formulario p{
+    font-family: "SUSE", sans-serif;
+}
 
 .formulario p label{
     min-width: 80px;
@@ -83,13 +86,23 @@ p{
 }
 
 .lista-de-medios li {
-    padding-bottom: 13px;
+    padding-bottom: 10px;
 }
 
-.otrasviasdecomunicacion {
-    padding-left: 20px;
+.lista-de-medios a {
+    text-decoration: none;
+    color: #6da9ed;
 }
 
-.contactorapido {
-    padding-left: 10px;
+.lista-de-medios a:hover {
+    text-decoration: underline;
+    color: #4b98ef;
+}
+
+.contactos h2 {
+    margin-left: 40px;
+}
+
+.botones {
+    margin-left: -77px;
 }

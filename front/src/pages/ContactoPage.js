@@ -39,9 +39,9 @@ const ContactoPage = (promps) => {
 
     return (
         <body>
-            <main className="holder contacto">
+            <main className="contacto">
                 <div>
-                    <h2 className="contactorapido">Contacto Rápido</h2>
+                    <h2>Contacto Rápido</h2>
                     <form className="formulario" action="/contacto" method="post" onSubmit={handleSubmit}>
                         <p>
                             <label for="nom">Nombre</label>
@@ -63,7 +63,7 @@ const ContactoPage = (promps) => {
                             <label for="comentario">Comentario</label>
                             <textarea name="comentario" value={formData.comentario} onChange={handleChange}></textarea>
                         </p>}
-                        <p>
+                        <p className='botones'>
                             <input type="submit" value="Enviar" />
                             <input type="reset" value="Borrar" />
                         </p>
@@ -74,14 +74,14 @@ const ContactoPage = (promps) => {
 
                 </div>
                 <div className="holder contactos">
-                    <h2 className="otrasviasdecomunicacion">Otras vías de comunicación</h2>
-                    <p className="">Puede comunicarse con nosotros a través de estos medios:</p>
+                    <h2>Otras vías de comunicación</h2>
+                    <p>Puede comunicarse con nosotros a través de estos medios:</p>
                     <ul className="lista-de-medios">
-                        <li>Facebook:</li>
-                        <li>Instagram:</li>
-                        <li>Twitter:</li>
-                        <li>Teléfono:</li>
-                        <li>Email:</li>
+                        <li>Facebook:<a href='https://www.facebook.com/profile.php?id=61564665790260'> Nykea Muebleria</a></li>
+                        <li>Instagram:<a href='https://www.instagram.com/nykea_muebleria/'> Nykea Muebleria</a></li>
+                        <li>Youtube:<a href='https://www.youtube.com/channel/UChQB3KtRhB0MGQqUMxy0R0g'> Nykea Muebleria</a></li>
+                        <li>Teléfono:<a> +54 9 343 464-3420</a></li>
+                        <li>Email:<a> nykeamuebleria@gmail.com</a></li>
                     </ul>
                 </div>
             </main>

@@ -2,9 +2,63 @@
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(255, 255, 255);
-    width: 75%;
 }
 
- .decoraciones {
-     margin: 10px;
+.productosdecoraciones {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    padding-right: 0px;
+    padding-left: 35px;
+    margin-left: 14.6%;
+    margin-bottom: -40px;
+}
+
+.productosdecoraciones img {
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.productosdecoraciones .Precio {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-top: -9px;
+}
+
+.productosdecoraciones p {
+    font-size: 12px;
+    width: 140px;
+    padding-left: 55px;
+    color: rgb(91, 91, 91);
+}
+
+.contenedor1 {
+    color: rgb(1, 1, 1);
+    font-size: 20px;
+    display: flex;
+    background-color: white;
+    margin-bottom: -20px;
+}
+
+.fa-chevron-right {
+    text-decoration: none;
+    font-size: 250%;
+    position: relative;
+    bottom: 460px;
+    left: 1400px;
+    color: rgb(94, 149, 252);
+}
+
+.fa-chevron-left {
+    text-decoration: none;
+    font-size: 250%;
+    position: relative;
+    bottom: 460px;
+    left: 90px;
+    color: rgb(94, 149, 252);
 }

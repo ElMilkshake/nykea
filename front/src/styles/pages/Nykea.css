@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     background-color: rgb(255, 255, 255);
     width: 75%;
-    padding-right: 10px;
+    margin-left: 15px;
 }
 
 .productosmuebles img {
@@ -13,26 +13,6 @@
     padding-left: 15px;
     padding-top: 10px;
     box-sizing: border-box;
-}
-
-.contenedor-img {
-    transition: transform 0.4s ease-in-out;
-    display: inline-block; /* Para que el div se ajuste al contenido */
-}
-
-.contenedor-img:hover,
-.img:hover {
-    transform: scale(1.06);
-}
-
-.Precio {
-    font-weight: bold;
-    transition: color 0.4s ease-in-out;
-}
-
-.contenedor-img:hover .Precio,
-.img:hover + .Precio {
-    color: #006ae3;
 }
 
 .productosmuebles .Precio {
@@ -50,32 +30,34 @@
 
 aside {
     width: 30%;
-    background-color: rgba(244, 252, 255, 0.875);
-    border-left: solid 2px rgb(195, 195, 195);
-    border-bottom: solid 2px rgb(113, 113, 113);
-    height: 600px;
-    display: flex;
-    flex-direction: column;
+    background-color: rgba(229, 246, 252, 0.875);
+    border-left: solid 3px rgb(203, 239, 254);
+    height: 950px;
 }
  
 aside img {
     width: 100px;
     height: 100px;
-    margin-top: 30px;
+    margin-bottom: 45px;
     margin-left: 30px;
+    margin-right: 0px;
     border-radius: 5px 5px; 
 } 
 
 aside a {
     margin-left: 20px;
-    margin-top: 37px;
     padding-right: 20px;
     font-family: "Inconsolata", monospace;
     font-size: 16px;
+    text-decoration: none;
+    color: rgb(43, 163, 255);
 }
 
 aside h3 {
-    margin-left: 30px;
+    padding-bottom: 10px;
+    margin-left: 70px;
+    text-decoration: underline;
+    font-weight: 340;
 }
 
 .noticia {
@@ -87,4 +69,5 @@ aside h3 {
     font-size: 20px;
     display: flex;
     background-color: white;
+    margin-bottom: 0px;
 }
